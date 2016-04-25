@@ -14,6 +14,10 @@
 		849CA1801C8FF9DB00FAFBD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849CA17F1C8FF9DB00FAFBD8 /* Images.xcassets */; };
 		849CA1831C8FF9DB00FAFBD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849CA1811C8FF9DB00FAFBD8 /* LaunchScreen.xib */; };
 		849CA18F1C8FF9DB00FAFBD8 /* HTAppTabFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849CA18E1C8FF9DB00FAFBD8 /* HTAppTabFrameworkTests.m */; };
+		D2011D2D1CCA0F7100BC1B14 /* PageConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = D2011D2C1CCA0F7100BC1B14 /* PageConfig.json */; };
+		D2011DC01CCE0AE400BC1B14 /* PageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2011DBF1CCE0AE400BC1B14 /* PageManager.m */; };
+		D2011DC31CCE4F2600BC1B14 /* TabFm.m in Sources */ = {isa = PBXBuildFile; fileRef = D2011DC21CCE4F2600BC1B14 /* TabFm.m */; };
+		D2011DC61CCE51DB00BC1B14 /* NavFm.m in Sources */ = {isa = PBXBuildFile; fileRef = D2011DC51CCE51DB00BC1B14 /* NavFm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		849CA1881C8FF9DB00FAFBD8 /* HTAppTabFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTAppTabFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849CA18D1C8FF9DB00FAFBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849CA18E1C8FF9DB00FAFBD8 /* HTAppTabFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppTabFrameworkTests.m; sourceTree = "<group>"; };
+		D2011D2C1CCA0F7100BC1B14 /* PageConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PageConfig.json; sourceTree = "<group>"; };
+		D2011DBE1CCE0AE400BC1B14 /* PageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageManager.h; sourceTree = "<group>"; };
+		D2011DBF1CCE0AE400BC1B14 /* PageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageManager.m; sourceTree = "<group>"; };
+		D2011DC11CCE4F2600BC1B14 /* TabFm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabFm.h; sourceTree = "<group>"; };
+		D2011DC21CCE4F2600BC1B14 /* TabFm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabFm.m; sourceTree = "<group>"; };
+		D2011DC41CCE51DB00BC1B14 /* NavFm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavFm.h; sourceTree = "<group>"; };
+		D2011DC51CCE51DB00BC1B14 /* NavFm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavFm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,7 @@
 		849CA1661C8FF9DB00FAFBD8 = {
 			isa = PBXGroup;
 			children = (
+				D2011D2B1CCA0F0E00BC1B14 /* MyFolder */,
 				849CA1711C8FF9DB00FAFBD8 /* HTAppTabFramework */,
 				849CA18B1C8FF9DB00FAFBD8 /* HTAppTabFrameworkTests */,
 				849CA1701C8FF9DB00FAFBD8 /* Products */,
@@ -89,6 +101,12 @@
 				849CA17F1C8FF9DB00FAFBD8 /* Images.xcassets */,
 				849CA1811C8FF9DB00FAFBD8 /* LaunchScreen.xib */,
 				849CA1721C8FF9DB00FAFBD8 /* Supporting Files */,
+				D2011DBE1CCE0AE400BC1B14 /* PageManager.h */,
+				D2011DBF1CCE0AE400BC1B14 /* PageManager.m */,
+				D2011DC11CCE4F2600BC1B14 /* TabFm.h */,
+				D2011DC21CCE4F2600BC1B14 /* TabFm.m */,
+				D2011DC41CCE51DB00BC1B14 /* NavFm.h */,
+				D2011DC51CCE51DB00BC1B14 /* NavFm.m */,
 			);
 			path = HTAppTabFramework;
 			sourceTree = "<group>";
@@ -117,6 +135,14 @@
 				849CA18D1C8FF9DB00FAFBD8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2011D2B1CCA0F0E00BC1B14 /* MyFolder */ = {
+			isa = PBXGroup;
+			children = (
+				D2011D2C1CCA0F7100BC1B14 /* PageConfig.json */,
+			);
+			path = MyFolder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +227,7 @@
 			files = (
 				849CA17E1C8FF9DB00FAFBD8 /* Main.storyboard in Resources */,
 				849CA1831C8FF9DB00FAFBD8 /* LaunchScreen.xib in Resources */,
+				D2011D2D1CCA0F7100BC1B14 /* PageConfig.json in Resources */,
 				849CA1801C8FF9DB00FAFBD8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2011DC61CCE51DB00BC1B14 /* NavFm.m in Sources */,
+				D2011DC31CCE4F2600BC1B14 /* TabFm.m in Sources */,
+				D2011DC01CCE0AE400BC1B14 /* PageManager.m in Sources */,
 				849CA17B1C8FF9DB00FAFBD8 /* ViewController.m in Sources */,
 				849CA1781C8FF9DB00FAFBD8 /* AppDelegate.m in Sources */,
 				849CA1751C8FF9DB00FAFBD8 /* main.m in Sources */,
@@ -412,6 +442,7 @@
 				849CA1941C8FF9DB00FAFBD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849CA1951C8FF9DB00FAFBD8 /* Build configuration list for PBXNativeTarget "HTAppTabFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +451,7 @@
 				849CA1971C8FF9DB00FAFBD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
